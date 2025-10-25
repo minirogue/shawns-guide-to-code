@@ -181,7 +181,7 @@ graph TB
 <figcaption>There is a path from Application Module to Library D, but no path from Library C to Library D.
 So, Library D is reachable from the Application Module, but not reachable from Library C.</figcaption>
 </figure>
-### Degree
+### Degree and Reach
 
 The **in-degree** of a node in a directed graph is the number of edges that point directly to that node.
 In a dependency graph, the in-degree is the number of modules that directly depend on the given module.
