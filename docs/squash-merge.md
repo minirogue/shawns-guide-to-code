@@ -98,7 +98,7 @@ This leaves us with the following git graph
 gitGraph
     commit id:"APP-321"
     commit id:"APP-325"
-    branch APP-315
+    branch working-branch
     commit id:"APP-315: add doSomething()"
     commit id:"WIP"
     commit id:"add tests for doSomething()"
@@ -109,7 +109,7 @@ gitGraph
     commit id:"fix doSomething() tests"
     checkout main
     commit id:"fix main"
-    commit id:"APP-315 add doSomething() and tests"
+    commit id:"merge PR #5 doSomething"
 ```
 
 That last commit in the `main` branch represents all of the work that was done in the `working-branch` branch, but does not introduce the entire history of that branch into `main`.
