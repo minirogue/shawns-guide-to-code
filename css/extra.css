@@ -1,0 +1,12 @@
+figure {
+    background-color: white;
+    box-shadow: 0 0 4px 4px white;
+    border-radius: 25px;
+}
+
+figcaption {
+    color: black;
+    font-style: italic;
+    padding: 8px;
+    text-align: center;
+}
