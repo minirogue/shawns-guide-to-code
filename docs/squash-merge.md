@@ -160,6 +160,8 @@ Simply click the arrow next to the merge button and you will be given a chance t
 
 If you are in a situation where you work best with a messy on-branch commit history, but your team is against squashed merges, then you can manually squash your branch before requesting a review.
 To do this, just use `git reset --soft target-branch`, which will rewind to the latest commit of `target-branch`, but leave all of your working files as-is, meaning they are now staged to be added in one single commit (or a couple if you'd like to just re-organize your commit history rather than fully squash it).
+If your remote repository allows for forced pushes on working branches, you can even rewrite your branch that has already been pushed.
+Although, be wary of doing that for a branch that has already entered the review stage, as that can affect your review.
 
 ## Rebase + Merge
 For completeness, I should also explain a rebasing merge strategy, as remote tracking tools will have a "rebase and merge" option as well.
