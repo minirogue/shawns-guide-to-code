@@ -12,8 +12,10 @@ plugins:
   - tags:
       tags: false
       tags_allowed:
+        - Android
         - Architecture
         - Code Style
+        - Gradle
         - Kotlin
         - Unit Testing
 
