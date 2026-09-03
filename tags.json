@@ -1,0 +1,1 @@
+{"mappings": [{"item": {"url": "dependency-graphs/", "title": "Dependency Graphs"}, "tags": ["Architecture"]}, {"item": {"url": "squash-merge/", "title": "Using the Squash Merge Strategy"}, "tags": ["Git", "Process"]}, {"item": {"url": "trailing-commas/", "title": "Trailing Commas in Kotlin"}, "tags": ["Code Style", "Kotlin"]}]}
