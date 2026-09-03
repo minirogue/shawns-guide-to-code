@@ -12,7 +12,6 @@ figcaption {
 }
 
 span.define {
-    /* TODO need to fix up colors */
     color: var(--md-accent-fg-color);
     font-weight: bold;
 }
