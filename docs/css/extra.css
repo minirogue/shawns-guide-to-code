@@ -10,3 +10,8 @@ figcaption {
     padding: 8px;
     text-align: center;
 }
+
+span.define {
+    color: var(--md-accent-fg-color);
+    font-weight: bold;
+}
