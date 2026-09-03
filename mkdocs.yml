@@ -16,6 +16,8 @@ plugins:
         - Code Style
         - Kotlin
         - Unit Testing
+        - Git
+        - Process
 
 hooks:
   - hooks/add-git-history.py
